@@ -1,12 +1,13 @@
 'use strict';
 /* global describe it */
 
+const { describe, it } = require('node:test');
 const assert = require('assert');
 const asn1 = require('..');
 const fixtures = require('./fixtures');
 const jsonEqual = fixtures.jsonEqual;
 
-const Buffer = require('safer-buffer').Buffer;
+const Buffer = require('safe-buffer').Buffer;
 
 describe('asn1.js ping/pong', function() {
   function test(name, model, input, expected) {
