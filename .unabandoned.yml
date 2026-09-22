@@ -1,0 +1,27 @@
+schema: 1
+
+package: "@unabandoned/asn1.js"
+
+upstream:
+  repo: indutny/asn1.js
+  reason: "no release since 2020-06-18; issues and pull requests unanswered"
+
+summary: >-
+  ASN.1 encoder and decoder with a JavaScript DSL for describing structures,
+  plus DER and PEM codecs - the machinery key parsing is built on.
+
+why-forked: >-
+  @unabandoned/parse-asn1 is built on it, and that is what
+  @unabandoned/browserify-sign and @unabandoned/crypto-browserify read private
+  keys with. At 1705 lines it is far too large to vendor and its codecs are the
+  wrong place to be clever, so it is adopted rather than reimplemented. Its own
+  leaves are gone: inherits and minimalistic-assert are vendored, safer-buffer
+  gives way to safe-buffer, and bn.js moves from 4.x to 5.x.
+
+status: active
+
+used-by:
+  - consumer: "@unabandoned/parse-asn1"
+    purpose: "Decodes the DER/PEM structures of RSA, DSA and EC private keys."
+
+tags: [asn1, der, pem, codec, crypto]

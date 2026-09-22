@@ -1,4 +1,10 @@
-# ASN1.js
+# @unabandoned/asn1.js
+
+> A maintained fork of [indutny/asn1.js](https://github.com/indutny/asn1.js),
+> which has had no release since June 2020. Published as
+> [`@unabandoned/asn1.js`](https://www.npmjs.com/package/@unabandoned/asn1.js);
+> the API is unchanged from upstream.
+
 
 ASN.1 DER Encoder/Decoder and DSL.
 
@@ -7,7 +13,7 @@ ASN.1 DER Encoder/Decoder and DSL.
 Define model:
 
 ```javascript
-var asn = require('asn1.js');
+var asn = require('@unabandoned/asn1.js');
 
 var Human = asn.define('Human', function() {
   this.seq().obj(

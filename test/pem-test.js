@@ -1,11 +1,12 @@
 'use strict';
 /* global describe it */
 
+const { describe, it } = require('node:test');
 const assert = require('assert');
 const asn1 = require('..');
 const BN = require('bn.js');
 
-const Buffer = require('safer-buffer').Buffer;
+const Buffer = require('safe-buffer').Buffer;
 
 describe('asn1.js PEM encoder/decoder', function() {
   const model = asn1.define('Model', function() {
