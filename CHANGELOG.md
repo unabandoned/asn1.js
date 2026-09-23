@@ -1,5 +1,12 @@
 # Changelog
 
+## [5.5.1](https://github.com/unabandoned/asn1.js/compare/asn1.js-v5.5.0...asn1.js-v5.5.1) (2026-09-23)
+
+
+### Bug Fixes
+
+* stop dev-only commits from cutting releases ([#4](https://github.com/unabandoned/asn1.js/issues/4)) ([38d154a](https://github.com/unabandoned/asn1.js/commit/38d154a265415d5814118ec1802f336aee146b71))
+
 ## [5.5.0](https://github.com/unabandoned/asn1.js/compare/asn1.js-v5.4.1...asn1.js-v5.5.0) (2026-09-22)
 
 
