@@ -26,8 +26,7 @@
     "@commitlint/config-conventional": "21.2.3"
   },
   "dependencies": {
-    "bn.js": "^5.2.5",
-    "safe-buffer": "^5.2.1"
+    "bn.js": "^5.2.5"
   },
   "publishConfig": {
     "access": "public",
