@@ -1,5 +1,12 @@
 # Changelog
 
+## [5.5.2](https://github.com/unabandoned/asn1.js/compare/asn1.js-v5.5.1...asn1.js-v5.5.2) (2026-10-09)
+
+
+### Dependencies & maintenance
+
+* use the buffer module instead of safe-buffer ([#13](https://github.com/unabandoned/asn1.js/issues/13)) ([bbbf082](https://github.com/unabandoned/asn1.js/commit/bbbf0826848325fcd1f805b1b9926b4d3a1f0444))
+
 ## [5.5.1](https://github.com/unabandoned/asn1.js/compare/asn1.js-v5.5.0...asn1.js-v5.5.1) (2026-09-23)
 
 
