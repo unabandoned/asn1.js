@@ -8,7 +8,7 @@ const bn = asn1.bignum;
 const fixtures = require('./fixtures');
 const jsonEqual = fixtures.jsonEqual;
 
-const Buffer = require('safe-buffer').Buffer;
+const Buffer = require('buffer').Buffer;
 
 describe('asn1.js error', function() {
   describe('encoder', function() {

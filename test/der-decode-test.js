@@ -5,7 +5,7 @@ const { describe, it } = require('node:test');
 const assert = require('assert');
 const asn1 = require('..');
 
-const Buffer = require('safe-buffer').Buffer;
+const Buffer = require('buffer').Buffer;
 
 describe('asn1.js DER decoder', function() {
   it('should propagate implicit tag', function() {

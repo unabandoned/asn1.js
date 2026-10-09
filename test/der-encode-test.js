@@ -6,7 +6,7 @@ const assert = require('assert');
 const asn1 = require('..');
 const BN = require('bn.js');
 
-const Buffer = require('safe-buffer').Buffer;
+const Buffer = require('buffer').Buffer;
 
 describe('asn1.js DER encoder', function() {
   /*

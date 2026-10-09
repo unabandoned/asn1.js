@@ -7,7 +7,7 @@ const asn1 = require('..');
 const fixtures = require('./fixtures');
 const jsonEqual = fixtures.jsonEqual;
 
-const Buffer = require('safe-buffer').Buffer;
+const Buffer = require('buffer').Buffer;
 
 describe('asn1.js ping/pong', function() {
   function test(name, model, input, expected) {
