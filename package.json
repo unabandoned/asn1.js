@@ -22,8 +22,8 @@
   },
   "homepage": "https://github.com/unabandoned/asn1.js#readme",
   "devDependencies": {
-    "@commitlint/cli": "21.2.3",
-    "@commitlint/config-conventional": "21.2.3"
+    "@commitlint/cli": "21.2.4",
+    "@commitlint/config-conventional": "21.2.4"
   },
   "dependencies": {
     "bn.js": "^5.2.5"
